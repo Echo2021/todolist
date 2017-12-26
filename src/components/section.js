@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import TodoList from './TodoList';
 import TodoFooter from './TodoFooter';
 import TodoHeader from './TodoHeader';
@@ -11,9 +10,6 @@ class Section extends React.Component {
 		this.state={
 			todos:[],
 			isAllCheck:false,
-			currentUser:null,
-			value:1
-
 		};
 		this.addTodo = this.addTodo.bind(this);
 		this.deleteTodo = this.deleteTodo.bind(this);
